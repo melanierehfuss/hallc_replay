@@ -3,7 +3,7 @@
 #********************
 # Block Definitions *
 #********************
-
+block P.rb.*
 block T.shms.*
 block P.ngcer.*
 block P.dc.*

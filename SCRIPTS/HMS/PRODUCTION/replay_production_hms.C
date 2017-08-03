@@ -65,11 +65,11 @@ void replay_production_hms(Int_t RunNumber=0, Int_t MaxEvent=0) {
   // Include golden track information
   THaGoldenTrack* gtr = new THaGoldenTrack("H.gtr", "HMS Golden Track", "H");
   gHaPhysics->Add(gtr);
-  // Add Ideal Beam Apparatus
-  THaApparatus* beam = new THaIdealBeam("IB", "Ideal Beamline");
+  // Add Rastered Beam Apparatus
+  THaApparatus* beam = new THcRasteredBeam("HRASTER.rb", "Rastered Beamline");
   gHaApps->Add(beam);
   // Add Physics Module to calculate primary (scattered) beam kinematics
-  THcPrimaryKine* hkin = new THcPrimaryKine("H.kin", "HMS Single Arm Kinematics", "H", "IB");
+  THcPrimaryKine* hkin = new THcPrimaryKine("H.kin", "HMS Single Arm Kinematics", "H", "HRASTER.rb");
   gHaPhysics->Add(hkin);
 
   // Add handler for prestart event 125.
