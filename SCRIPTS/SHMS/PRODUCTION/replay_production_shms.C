@@ -17,7 +17,7 @@ void replay_production_shms (Int_t RunNumber = 0, Int_t MaxEvent = 0) {
 
   // Create file name patterns.
   const char* RunFileNamePattern = "~/Desktop/HallC/hallc_replay/DATFILES/shms_all_%05d.dat";
-  const char* ROOTFileNamePattern = "ROOTfiles/shms_replay_production_%d_%d.root";
+  const char* ROOTFileNamePattern = "shms_replay_production_%d_%d.root";
   
   // Load global parameters
   // Add variables to global list.
