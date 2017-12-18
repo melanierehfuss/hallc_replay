@@ -48,15 +48,15 @@ calculating beam position
 
 ; raster constants from Fall '17 Commissioning shms run 1565
 
-;    gfrya_adcpercm = 56333.3;
-;    gfryb_adcpercm = 56000;
-;    gfrxa_adcpercm = 67333.3;
-;    gfrxb_adcpercm = 62666.6;
+;    gfrxa_adcpercm = 56333.3;
+;    gfrxb_adcpercm = 56000;
+;    gfrya_adcpercm = 67333.3;
+;    gfryb_adcpercm = 62666.6;
 
-;    gfrya_adc_zero_offset = 67200;
-;    gfryb_adc_zero_offset = 65650;
-;    gfrxa_adc_zero_offset = 65150;
-;    gfrxb_adc_zero_offset = 67050;
+;    gfrxa_adc_zero_offset = 67200;
+;    gfrxb_adc_zero_offset = 65650;
+;    gfrya_adc_zero_offset = 65150;
+;    gfryb_adc_zero_offset = 67050;
 
 
 ; positions of FR magnets relative to target
